@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile Card Component</title>
+    <meta name="author" content="Elmar Chavez" />
+    <meta name="description"
+        content="A responsive profile card component built with HTML and CSS. Created as part of Frontend Mentor challenges during the author's fourth month learning frontend web development." />
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/icons/favicon-32x32.png" />
+
+    <meta property="og:site_name" content="CodingWithJiro" />
+    <meta property="og:title" content="Profile Card Component" />
+    <meta property="og:type" content="website" />
+    <meta property="og:description"
+        content="A responsive profile card built using HTML and CSS. Developed for a Frontend Mentor challenge during the author's 4th month of learning frontend web development." />
+
+    <meta property="og:url" content="ADD_LINK_HERE" />
+
+    <meta property="og:image" content="ADD_LINK_HERE/assets/img/site-preview-meta_1200x630.png" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Profile Card Component" />
+    <meta name="twitter:description"
+        content="Responsive profile card built with #HTML & #CSS for a Frontend Mentor challenge. Month 4 of my frontend dev journey! #FrontendMentor #WebDev" />
+
+    <meta name="twitter:image" content="ADD_LINK_HERE/assets/img/site-preview-meta_1200x630.png" />
+
+    <meta name="color-scheme" content="light dark" />
+    <meta name="theme-color" content="#19a2ae" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#252837" media="(prefers-color-scheme: dark)" />
+
+    <meta name="robots" content="index, follow" />
+
+    <link rel="canonical" href="ADD_LINK_HERE">
+
+    <link rel="stylesheet" href="./css/styles.css" />
+    <script src="./js/index.js" defer></script>
+</head>
+
+<body>
+    <header class="header">
+        <a class="header__skip sr-only" href="#main" aria-label="Skip to main content">
+            Go directly to the main content of the page.
+        </a>
+
+        <h1 class="header__title sr-only">
+            Profile Card Component
+        </h1>
+
+        <div class="theme">
+            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
+                class="theme__icon theme__icon--light">
+                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                <g id="SVGRepo_iconCarrier">
+                    <g clip-path="url(#a)" fill="currentColor">
+                        <path
+                            d="M12 0a1 1 0 0 1 1 1v4a1 1 0 1 1-2 0V1a1 1 0 0 1 1-1ZM4.929 3.515a1 1 0 0 0-1.414 1.414l2.828 2.828a1 1 0 0 0 1.414-1.414L4.93 3.515ZM1 11a1 1 0 1 0 0 2h4a1 1 0 1 0 0-2H1ZM18 12a1 1 0 0 1 1-1h4a1 1 0 1 1 0 2h-4a1 1 0 0 1-1-1ZM17.657 16.243a1 1 0 0 0-1.414 1.414l2.828 2.828a1 1 0 1 0 1.414-1.414l-2.828-2.828ZM7.757 17.657a1 1 0 1 0-1.414-1.414L3.515 19.07a1 1 0 1 0 1.414 1.414l2.828-2.828ZM20.485 4.929a1 1 0 0 0-1.414-1.414l-2.828 2.828a1 1 0 1 0 1.414 1.414l2.828-2.828ZM13 19a1 1 0 1 0-2 0v4a1 1 0 1 0 2 0v-4ZM12 7a5 5 0 1 0 0 10 5 5 0 0 0 0-10Z">
+                        </path>
+                    </g>
+                    <defs>
+                        <clipPath id="a">
+                            <path fill="#ffffff" d="M0 0h24v24H0z"></path>
+                        </clipPath>
+                    </defs>
+                </g>
+            </svg>
+
+            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
+                class="theme__icon theme__icon--dark hidden">
+                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                <g id="SVGRepo_iconCarrier">
+                    <path
+                        d="M9.272 2.406a1 1 0 0 0-1.23-1.355C6.59 1.535 5.432 2.487 4.37 3.55a11.399 11.399 0 0 0 0 16.182c4.518 4.519 11.51 4.261 15.976-.205 1.062-1.062 2.014-2.22 2.498-3.673A1 1 0 0 0 21.55 14.6c-3.59 1.322-7.675.734-10.434-2.025-2.765-2.766-3.328-6.83-1.844-10.168Z"
+                        fill="currentColor"></path>
+                </g>
+            </svg>
+
+            <button type="button" aria-label="Toggle Light/Dark Mode" class="theme__button"></button>
+        </div>
+    </header>
+
+    <main class="main" id="main">
+        <section class="profile">
+            <div class="profile__container">
+                <article class="card" aria-labelledby="card__name">
+                    <header class="card__header">
+                        <img src="./assets/img/bg-pattern-card_350x140.svg" alt="" width="350" height="140"
+                            class="card__background" aria-hidden="true">
+
+                        <img src="./assets/img/image-victor_96x96.jpg" alt="Sunkissed profile picture of Victor Crest"
+                            class="card__profile-image" width="96" height="96">
+
+                        <h2 class="card__name" id="card__name">
+                            Victor Crest
+
+                            <span class="card__age">
+                                26
+                            </span>
+                        </h2>
+
+                        <p class="card__address">
+                            London
+                        </p>
+                    </header>
+
+                    <section class="card__stats">
+                        <div class="card__stat">
+                            <span class="card__stat-numbers">
+                                80K
+                            </span>
+
+                            <span class="card__stat-category">
+                                Followers
+                            </span>
+                        </div>
+
+                        <div class="card__stat">
+                            <span class="card__stat-numbers">
+                                803K
+                            </span>
+
+                            <span class="card__stat-category">
+                                Likes
+                            </span>
+                        </div>
+
+                        <div class="card__stat">
+                            <span class="card__stat-numbers">
+                                1.4K
+                            </span>
+
+                            <span class="card__stat-category">
+                                Photos
+                            </span>
+                        </div>
+                    </section>
+                </article>
+            </div>
+
+            <img src="./assets/img/bg-pattern-top_978x978.svg" alt=""
+                class="profile__background profile__background--top" width="978" height="978" aria-hidden="true">
+
+            <img src="./assets/img/bg-pattern-bottom_978x978.svg" alt=""
+                class="profile__background profile__background--bottom" width="978" height="978" aria-hidden="true">
+        </section>
+    </main>
+</body>
+
+</html>
