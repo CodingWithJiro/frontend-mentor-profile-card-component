@@ -1,4 +1,4 @@
-# 💻 Profile Card Component
+# Profile Card Component
 
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
@@ -22,7 +22,7 @@
 ![Learning Path](https://img.shields.io/badge/learning%20path-month%204-blue)
 ![Views](https://visitor-badge.laobi.icu/badge?page_id=CodingWithJiro.frontend-mentor-profile-card-component&left_text=repo%20views)
 
-## ℹ️ A Responsive Profile Card Component of Victor Crest
+## A Responsive Profile Card Component of Victor Crest
 
 | _Mobile Preview (375x812)_                                   | _Desktop Preview (1440x960)_                                    |
 | ------------------------------------------------------------ | --------------------------------------------------------------- |
@@ -31,11 +31,11 @@
 
 A clean, responsive profile card featuring Victor Crest’s basic profile and social stats. The layout adjusts beautifully from mobile to desktop view and includes support for dark mode using CSS custom properties and JavaScript.
 
-Created as part of the building challenges from [Frontend Mentor](https://www.frontendmentor.io/).
+Created as part of the building challenges from **[Frontend Mentor](https://www.frontendmentor.io/)**.
 
 ---
 
-## 🔍 Overview
+## Overview
 
 This project is a responsive and accessible profile card component. It includes dynamic theme toggling (light/dark mode) that respects user preferences and saves them using `localStorage`. The layout uses mobile-first principles with `clamp()` for fluid scaling and media queries to ensure good visuals across various screen sizes.
 
@@ -43,7 +43,7 @@ The project highlights semantic HTML, consistent styling using CSS variables, an
 
 ---
 
-## ✨ Features
+## Features
 
 - Responsive layout using mobile-first design
 - Dark mode toggle using `localStorage`
@@ -56,16 +56,16 @@ The project highlights semantic HTML, consistent styling using CSS variables, an
 
 ---
 
-## 🧠 What I Learned
+## What I Learned
 
-- How to build fluid layouts using `clamp()` with real calculated values with the help from [The Clamp Calculator](https://royalfig.github.io/fluid-typography-calculator/)
+- How to build fluid layouts using `clamp()` with real calculated values with the help from **[The Clamp Calculator](https://royalfig.github.io/fluid-typography-calculator/)**
 - Enhancing images and outlines for hover states using CSS transitions
 - Layering background images effectively with `z-index`
 - Working with responsive background SVG positioning
 
 ---
 
-## 🛠️ Tech Used
+## Tech Used
 
 - HTML5
 - CSS3
@@ -76,36 +76,36 @@ The project highlights semantic HTML, consistent styling using CSS variables, an
 
 ---
 
-## 🎨 Design Reference & Tools
+## Design Reference & Tools
 
 - JPG design image
 - PerfectPixel
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
 1. Clone the repository
 2. Open `index.html` in your browser
 
 ---
 
-## 🌐 Live Demo
+## Live Demo
 
-Or you can check out the 👉 [live website here](https://profile-card-component-fm-jiro.netlify.app/)
-
----
-
-## 📊 Performance Report
-
-A **Google Lighthouse** audit was conducted on the final version of this project. You can view the full report [here](./assets/downloads/lighthouse-performance-report.pdf).
+Or you can check out the **[live website here](https://profile-card-component-fm-jiro.netlify.app/)**
 
 ---
 
-## 🧑‍💻 Author
+## Performance Report
+
+A **Google Lighthouse** audit was conducted on the final version of this project. You can view the **[full report here](./assets/downloads/lighthouse-performance-report.pdf)**.
+
+---
+
+## Author
 
 Created by **Elmar Chavez**
 
-🗓️ Month/Year: **July 2025**
+Month/Year: **July 2025**
 
-📚 Journey: **4<sup>th</sup>** month of learning _frontend web development_.
+Journey: **4<sup>th</sup>** month of learning _frontend web development_.
